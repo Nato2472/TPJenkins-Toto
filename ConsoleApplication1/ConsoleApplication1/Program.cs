@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// by default everything in this assembly is CLS compliant
+[assembly: CLSCompliant(true)]
 namespace ConsoleApplication1
 {
     public static class Program
