@@ -8,16 +8,16 @@ namespace ConsoleApplication1
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello world !");
         }
 
-        public static int add(int a, int b)
+        public static int Add(int a, int b)
         {
             return a + b;
         }
-        public static int divide(int a, int b)
+        public static int Divide(int a, int b)
         {
             return a / b;
         }

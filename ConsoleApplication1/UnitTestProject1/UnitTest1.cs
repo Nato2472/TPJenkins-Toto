@@ -10,15 +10,13 @@ namespace UnitTestProject1
         [Test]
         public void TestAdd()
         {
-            Assert.AreEqual(Program.add(5, 12), 5+12);
+            Assert.AreEqual(Program.Add(5, 12), 5+12);
         }
 
         [Test]
         public void TestDivide()
         {
-            Assert.AreEqual(Program.divide(5, 12), 5/12 );
-
-            //AssertFailedException.Equals(Program.divide(5, 0), );
+            Assert.AreEqual(Program.Divide(5, 12), 5/12 );
         }
     }
 }
