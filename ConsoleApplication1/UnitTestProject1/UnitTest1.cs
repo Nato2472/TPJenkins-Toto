@@ -17,6 +17,8 @@ namespace UnitTestProject1
         public void TestDivide()
         {
             Assert.AreEqual(Program.divide(5, 12), 0 );
+
+            //AssertFailedException.Equals(Program.divide(5, 0), );
         }
     }
 }
