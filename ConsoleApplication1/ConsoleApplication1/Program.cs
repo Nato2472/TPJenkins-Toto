@@ -8,7 +8,7 @@ namespace ConsoleApplication1
 {
     public static class Program
     {
-        public static void Main()
+        static void Main()
         {
             Console.WriteLine("Hello world !");
         }
