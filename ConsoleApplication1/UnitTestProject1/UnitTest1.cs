@@ -1,22 +1,22 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ConsoleApplication1;
+using NUnit.Framework;
 
 namespace UnitTestProject1
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        [Test]
         public void TestAdd()
         {
-            Assert.AreEqual(Program.add(5, 12), 17);
+            Assert.AreEqual(Program.add(5, 12), 5+12);
         }
 
-        [TestMethod]
+        [Test]
         public void TestDivide()
         {
-            Assert.AreEqual(Program.divide(5, 12), 0 );
+            Assert.AreEqual(Program.divide(5, 12), 5/12 );
 
             //AssertFailedException.Equals(Program.divide(5, 0), );
         }
