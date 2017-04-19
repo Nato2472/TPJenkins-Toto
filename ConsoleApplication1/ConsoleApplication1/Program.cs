@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-
     public static class Program
     {
         public static int Add(int a, int b)
