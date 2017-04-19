@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 // by default everything in this assembly is CLS compliant
 [assembly: CLSCompliant(true)]
+
 namespace ConsoleApplication1
 {
 
     public static class Program
     {
-
-        private static void Main()
-        {
-            Console.WriteLine("Hello world !");
-        }
-
         public static int Add(int a, int b)
         {
             return a + b;
@@ -27,5 +22,9 @@ namespace ConsoleApplication1
             return a / b;
         }
 
+        private static void Main()
+        {
+            Console.WriteLine("Hello world !");
+        }
     }
 }
