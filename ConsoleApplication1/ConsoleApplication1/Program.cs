@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 [assembly: CLSCompliant(true)]
 namespace ConsoleApplication1
 {
+
     public static class Program
     {
-        static void Main()
+
+        private static void Main()
         {
             Console.WriteLine("Hello world !");
         }
@@ -19,9 +21,11 @@ namespace ConsoleApplication1
         {
             return a + b;
         }
+
         public static int Divide(int a, int b)
         {
             return a / b;
         }
+
     }
 }
